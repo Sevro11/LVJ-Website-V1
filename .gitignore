@@ -1,0 +1,22 @@
+# Environment Variables
+*.env
+*.env.local
+
+# Dependencies (Separate lines!)
+node_modules/
+__pycache__/
+venv/
+
+# Build outputs
+/dist/
+/build/
+
+# Logs and Debugging
+*.log
+*.tmp
+bugout.txt
+
+# OS/IDE junk
+Thumbs.db
+.DS_Store
+.vscode/
