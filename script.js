@@ -1,6 +1,5 @@
 // ===== Config =====
-// Paste deployed Apps Script Web App URL here:
-const WAITLIST_ENDPOINT = "PASTE_APPS_SCRIPT_WEB_APP_URL_HERE";
+const WAITLIST_ENDPOINT = "https://script.google.com/macros/s/AKfycbz5S9BlHg4tpmk8MwqpIQjb_Bl56ea6uSHOyBLvr2tKMPCoEGr96LJWfXCzupxGc4uhtA/exec";
 
 // ===== Helpers =====
 function $(id){ return document.getElementById(id); }
