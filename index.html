@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Long Val John — The French-style joint holder</title>
+  <meta name="description" content="Long Val John is a joint holder and extender for a more refined session—better grip, more distance from heat, and comfortable last puffs. Join the 21+ waitlist for Founder’s Club." />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Age Gate -->
+  <div id="ageGate" class="age-gate" role="dialog" aria-modal="true" aria-labelledby="ageTitle">
+    <div class="age-card">
+      <h1 id="ageTitle">Adults only (21+)</h1>
+      <p class="muted">
+        This site is for adults of legal age to purchase tobacco/cannabis-related accessories where permitted by law.
+      </p>
+
+      <div class="age-actions">
+        <button class="btn btn-primary" id="ageYes" type="button">I am 21+</button>
+        <button class="btn btn-secondary" id="ageNo" type="button">I am not</button>
+      </div>
+
+      <p class="fineprint">
+        By entering, you agree you are of legal age in your location.
+      </p>
+
+      <div id="ageDenied" class="age-denied" hidden>
+        <p><strong>Sorry—access is restricted.</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-row">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">Long Val John</span>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#how">How it works</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#founders">Founder’s Club</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn-secondary" href="#signup">Join waitlist</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Prototype • Market validation • Joints only</p>
+
+          <h1>The French-style joint holder.</h1>
+
+          <p class="lead">
+            Long Val John is a joint holder and extender that adds distance between your joint and your hands—so your
+            session feels more refined, more comfortable, and easier to handle from first light to last puff.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#signup">Join the 21+ waitlist</a>
+            <a class="btn btn-link" href="#how">See how it works</a>
+          </div>
+
+          <ul class="micro-bullets" aria-label="Highlights">
+            <li>More distance from heat near the end</li>
+            <li>Comfortable grip and control</li>
+            <li>A more stylized ritual</li>
+          </ul>
+        </div>
+
+        <div class="hero-card" role="img" aria-label="Product image placeholder">
+          <div class="mock">
+            <p class="mock-title">Add product photo here</p>
+            <p class="mock-sub">A clean hero shot will boost conversions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how">
+      <div class="container">
+        <h2>How it works</h2>
+
+        <div class="steps">
+          <div class="card">
+            <h3>1) Insert</h3>
+            <p>Place your joint into the holder.</p>
+          </div>
+          <div class="card">
+            <h3>2) Hold</h3>
+            <p>Enjoy a steadier, more comfortable grip and control.</p>
+          </div>
+          <div class="card">
+            <h3>3) Finish</h3>
+            <p>Keep your fingers farther from heat as you reach the end.</p>
+          </div>
+        </div>
+
+        <p class="fineprint" style="margin-top: 1rem;">
+          Note: We avoid health/medical claims. This is an accessory product; experience varies by user.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="benefits">
+      <div class="container">
+        <h2>Why it feels better</h2>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Refined ritual</h3>
+            <p>A more elegant, “holder-style” session—without changing your routine.</p>
+          </div>
+
+          <div class="card">
+            <h3>Comfortable last puffs</h3>
+            <p>More distance as you approach the end, so your fingers stay farther from heat.</p>
+          </div>
+
+          <div class="card">
+            <h3>Easier grip</h3>
+            <p>More surface area to hold—useful for anyone who wants steadier control.</p>
+          </div>
+
+          <div class="card">
+            <h3>More consistent handling</h3>
+            <p>Less fumbling, more control—especially when you’re multitasking.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="founders">
+      <div class="container founders">
+        <div class="card founders-card">
+          <h2>Founder’s Club (waitlist perk)</h2>
+          <p class="lead">
+            Join the waitlist before launch and you’ll receive a promo code for
+            <strong>25% off your first 12 orders</strong>.
+          </p>
+          <p class="fineprint">
+            Details may change prior to launch. Codes are sent only to verified waitlist emails. 21+ only.
+          </p>
+          <a class="btn btn-primary" href="#signup">Join the waitlist</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="signup">
+      <div class="container signup">
+        <div>
+          <h2>Get notified when pre-orders open</h2>
+          <p class="lead">
+            Be first in line—and get your Founder’s Club discount code when we launch.
+          </p>
+          <p class="fineprint">
+            We only email product updates. No spam.
+          </p>
+        </div>
+
+        <form id="waitlistForm">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+
+          <div class="field">
+            <label for="state">State (optional)</label>
+            <input id="state" name="state" type="text" autocomplete="address-level1" placeholder="e.g., IL" />
+          </div>
+
+          <div class="field checkbox">
+            <input id="ageConfirm" name="age_confirm" type="checkbox" required />
+            <label for="ageConfirm">I confirm I am 21+ (or legal age in my location)</label>
+          </div>
+
+          <button class="btn btn-primary" type="submit">Join waitlist</button>
+
+          <p class="fineprint">
+            By joining, you agree to our <a href="#privacy">privacy notice</a> and legal disclaimers.
+          </p>
+
+          <p id="formStatus" class="fineprint" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <h2>FAQ</h2>
+
+        <div class="faq">
+          <details class="card">
+            <summary>What is Long Val John?</summary>
+            <p>A joint holder and extender inspired by classic cigarette-holder style—designed for a more refined session.</p>
+          </details>
+
+          <details class="card">
+            <summary>Does it work with blunts?</summary>
+            <p>Launch is planned for joints only. Blunt compatibility may be explored later based on demand.</p>
+          </details>
+
+          <details class="card">
+            <summary>When will pre-orders open?</summary>
+            <p>We’ll email the waitlist first with timing and Founder’s Club details.</p>
+          </details>
+
+          <details class="card">
+            <summary>Is this legal?</summary>
+            <p>Long Val John is intended for adult use only, for tobacco/cannabis use where legally permitted.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="privacy">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span class="brand-name">Long Val John</span>
+          </div>
+          <p class="fineprint">© <span id="year"></span> Long Val John. All rights reserved.</p>
+        </div>
+
+        <div>
+          <p class="fineprint">
+            <strong>Disclaimer:</strong> For adults of legal age only. For tobacco/cannabis use where legally permitted.
+            This site does not provide medical advice. Product materials/specifications may change during development.
+          </p>
+          <p class="fineprint">
+            Contact: <span class="muted">hello@longvaljohn.com</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
